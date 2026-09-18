@@ -25,6 +25,17 @@ def get_bigquery_client():
 client = get_bigquery_client()
 
 # Arayüz Başlığı
+st.markdown(
+    """
+    <div style="display: flex; justify-content: center; margin-bottom: -10px; margin-top: -10px;">
+        <div style="background-color: #1e1e2e; padding: 10px 18px; border-radius: 12px; border: 1.5px solid #00d2ff; text-align: center; box-shadow: 0 4px 12px rgba(0, 210, 255, 0.2);">
+            <span style="color: #a6adc8; font-size: 14px; font-weight: bold; margin-right: 5px;">👨‍💻 Creator:</span> 
+            <span style="color: #00d2ff; font-size: 16px; font-weight: bold;">Aykut Koç</span>
+        </div>
+    </div>
+    """,
+    unsafe_allow_html=True
+)
 st.title("🚀 HepsiAd PLP Kelime Rezervasyon Portalı")
 st.markdown("Looker Studio üzerinden seçtiğiniz **Boş (Fırsat)** kelimeleri rezerve etmek için formu doldurun.")
 
